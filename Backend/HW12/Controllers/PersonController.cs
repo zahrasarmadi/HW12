@@ -9,18 +9,28 @@ namespace HW12.Controllers;
 [ApiController]
 public class PersonController : ControllerBase
 {
-    Authentication authentication=new Authentication();
+    Authentication authentication = new Authentication();
     [HttpPost]
     [Route("register")]
     public IActionResult RegisterPerson([FromForm] Person person)
-    { 
-       var result= authentication.Register(person);
+    {
+        //Person person = new Person()
+        //{
+        //    Password = password,
+        //    PhoneNumber = phoneNumber,
+        //    Address = address,
+        //    Email = email,
+        //    Gender = gender,
+        //    Active = true
+        //};
+
+        var result = authentication.Register(person);
         return Ok(result);
     }
 
     [HttpPost]
     [Route("login")]
-    public IActionResult LoginPerson([FromForm]LoginDTO loginUser)
+    public IActionResult LoginPerson([FromForm] LoginDTO loginUser)
     {
         var login = authentication.Login(loginUser);
         return Ok(login);

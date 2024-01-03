@@ -21,7 +21,7 @@ public class Authentication : Interfaces.IAuthentication
     }
     public Person Register(Person person)
     {
-        DataBase.people.Add(person);    
+        DataBase.people.Add(person);
         serialization.SaveToFileWhitWrite(DataBase.people);
         return person;
     }

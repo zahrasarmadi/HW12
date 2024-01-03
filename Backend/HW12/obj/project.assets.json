@@ -487,11 +487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\week13\\HW12\\HW12\\HW12.csproj",
+      "projectUniqueName": "E:\\week13\\HW12\\Backend\\HW12\\HW12.csproj",
       "projectName": "HW12",
-      "projectPath": "E:\\week13\\HW12\\HW12\\HW12.csproj",
+      "projectPath": "E:\\week13\\HW12\\Backend\\HW12\\HW12.csproj",
       "packagesPath": "C:\\Users\\Zahra Sarmadi\\.nuget\\packages\\",
-      "outputPath": "E:\\week13\\HW12\\HW12\\obj\\",
+      "outputPath": "E:\\week13\\HW12\\Backend\\HW12\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

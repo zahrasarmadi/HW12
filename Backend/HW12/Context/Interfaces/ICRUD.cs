@@ -8,6 +8,7 @@ namespace HW12.Context.Interfaces
         public bool UpdatePerson(Person newPerson);
         public Person GetPersonByEmail(string email);
         public List<Person> GetAllPersons();
-        public bool DeletePerson(string email);
+        public bool ActivePerson(string email);
+        public bool DeActivePerson(string email);
     }
 }
